@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Products{% endblock %}
+
+{% block content %}
+    <h1>Product Catalog</h1>
+    <ul>
+        {% for product in products %}
+            <li>
+                <h2>{{ product.name }}</h2>
+                <p>{{ product.description }}</p>
+                <p>Price: ${{ product.price }}</p>
+                <img src="{{ product.image_url }}" alt="{{ product.name }}">
+                <form method="POST" action="{{ url_for('add_to_cart', product_id=product.id) }}">
+                    {{ form.hidden_tag() }}
+                    <input type="number" name="quantity" value="1" min="1" class="form-control">
+                    <button type="submit" class="btn">Add to Cart</button>
+                </form>
+            </li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('checkout') }}" class="btn">Checkout</a>
+{% endblock %}
