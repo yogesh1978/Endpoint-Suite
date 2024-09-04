@@ -1,0 +1,18 @@
+--------------------------------------------------------
+--  DDL for Table NVD_CODES
+--------------------------------------------------------
+
+  CREATE TABLE "SEN11CP2MSI164"."NVD_CODES" 
+   (	"NVD_ZOBJNAME" NVARCHAR2(32), 
+	"NVD_ZOBJDATE" NVARCHAR2(8), 
+	"NVD_ZOBJTIME" NVARCHAR2(8), 
+	"NVD_ZOBJRCRC" NVARCHAR2(8), 
+	"NVD_ZOBJID" NVARCHAR2(12), 
+	"NVD_ZUNUSED1" NVARCHAR2(4), 
+	"NVD_ZOBJCID" NVARCHAR2(12), 
+	"NVD_ZOBJRSIZ" NVARCHAR2(8), 
+	"NVD_CODE" NVARCHAR2(32), 
+	"NVD_TYPE" NVARCHAR2(12), 
+	"NVD_NAME" NVARCHAR2(32), 
+	"NVD_DESCRIPT" NVARCHAR2(255)
+   ) ;

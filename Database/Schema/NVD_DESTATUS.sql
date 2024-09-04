@@ -1,0 +1,19 @@
+--------------------------------------------------------
+--  DDL for Table NVD_DESTATUS
+--------------------------------------------------------
+
+  CREATE TABLE "SEN11CP2MSI164"."NVD_DESTATUS" 
+   (	"NVD_ZOBJDEV" NVARCHAR2(64), 
+	"NVD_SCANTIME" DATE, 
+	"NVD_PRODCNT" FLOAT(126), 
+	"NVD_BULLCNT" FLOAT(126), 
+	"NVD_OKBULL" FLOAT(126), 
+	"NVD_WARNBULL" FLOAT(126), 
+	"NVD_RPENBULL" FLOAT(126), 
+	"NVD_ERRBULL" FLOAT(126), 
+	"NVD_OTHRBULL" FLOAT(126), 
+	"NVD_ZOBJRC" FLOAT(126), 
+	"NVD_JOBID" NVARCHAR2(255), 
+	"NVD_MSIVER" NVARCHAR2(255), 
+	"NVD_WUAVER" NVARCHAR2(255)
+   ) ;

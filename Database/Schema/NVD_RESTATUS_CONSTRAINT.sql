@@ -1,0 +1,8 @@
+--------------------------------------------------------
+--  Constraints for Table NVD_RESTATUS
+--------------------------------------------------------
+
+  ALTER TABLE "SEN11CP2MSI164"."NVD_RESTATUS" MODIFY ("NVD_ZOBJDEV" NOT NULL ENABLE);
+  ALTER TABLE "SEN11CP2MSI164"."NVD_RESTATUS" MODIFY ("NVD_ZOBJNAME" NOT NULL ENABLE);
+  ALTER TABLE "SEN11CP2MSI164"."NVD_RESTATUS" ADD PRIMARY KEY ("NVD_ZOBJDEV", "NVD_ZOBJNAME")
+  USING INDEX  ENABLE;
