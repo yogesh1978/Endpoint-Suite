@@ -1,0 +1,16 @@
+--------------------------------------------------------
+--  DDL for Table AUTOPILOT_REGISTRATION
+--------------------------------------------------------
+
+  CREATE TABLE "SEN11CP2MSI164"."AUTOPILOT_REGISTRATION" 
+   (	"DEVICE_ID" NVARCHAR2(50), 
+	"DEVICE_NAME" NVARCHAR2(50), 
+	"OS" NVARCHAR2(100), 
+	"OS_VERSION" NVARCHAR2(100), 
+	"DOMAIN_TYPE" NVARCHAR2(255), 
+	"OWNER" NVARCHAR2(100), 
+	"MDM" NVARCHAR2(50), 
+	"MDM_COMPLIANT" NVARCHAR2(8), 
+	"REGTIME" DATE, 
+	"ACTIVITYTIME" DATE
+   ) ;

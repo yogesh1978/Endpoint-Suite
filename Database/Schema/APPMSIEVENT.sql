@@ -1,0 +1,22 @@
+--------------------------------------------------------
+--  DDL for Table APPMSIEVENT
+--------------------------------------------------------
+
+  CREATE TABLE "SEN11CP2MSI164"."APPMSIEVENT" 
+   (	"DEVICE_ID" NVARCHAR2(50), 
+	"CTIME" DATE, 
+	"MTIME" DATE, 
+	"SERVICE_ID" NVARCHAR2(50), 
+	"APP_NAME" NVARCHAR2(80), 
+	"ERRORNUM" NVARCHAR2(10), 
+	"EVENT" NVARCHAR2(20), 
+	"STATUS" NVARCHAR2(255), 
+	"DEL_TIME" NVARCHAR2(30), 
+	"VER_TIME" NVARCHAR2(30), 
+	"INST_TIME" NVARCHAR2(30), 
+	"FIX_TIME" NVARCHAR2(30), 
+	"NVD_DOMAIN" NVARCHAR2(15), 
+	"NVD_CLASS" NVARCHAR2(15), 
+	"JOB_ID" NVARCHAR2(20), 
+	"PROD_GUID" NVARCHAR2(75)
+   ) ;
